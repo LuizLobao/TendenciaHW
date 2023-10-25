@@ -462,9 +462,9 @@ executa_procedure_sql_combinada('SP_CDO_PREPARA_BASE_TEND_VL_VLL')
 
 montaExcelTendVlVll()
 enviaEmaileAnexo()
-demonstrativo_gross()
+#demonstrativo_gross()
 executa_procedure_sql_combinada('SP_CDO_TEND_VL_VLL_LEGADA_IGUAL_CDO')
-atualiza_TB_VALIDA_CARGA_TENDENCIA()
+#atualiza_TB_VALIDA_CARGA_TENDENCIA()
 
 
 notificacao = Notification(app_id="Tendência HoltWinters", title="CONCLUIDO",

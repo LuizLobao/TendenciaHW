@@ -1,0 +1,14 @@
+*.sql
+*.csv
+*.ppt*
+*.xls*
+*.txt
+
+segredos.py
+
+\__pycache__
+\.vscode
+\TEND_DEFLAC
+
+
+
