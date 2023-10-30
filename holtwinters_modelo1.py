@@ -452,7 +452,7 @@ produtos = ['FIBRA', 'NOVA FIBRA']
 segmentos = ['VAREJO', 'EMPRESARIAL']
 gestao = ['RSE', 'RCS', 'RNN', 'TLV', 'WEB', 'OUTROS NACIONAIS']
 
-for produto in produtos:
+for produto in produtos: 
     for segmento in segmentos:
         for gest in gestao:
             filtraDF_e_CalculaTendencia(df, 'VL', produto, segmento, gest)
